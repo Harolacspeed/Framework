@@ -38,6 +38,7 @@ def registrar_usuario():
 #si es un metodo 
     return render_template('Registrar.html')
 #definir rutas
+
 #para ejecutar la aplicacion 
 if __name__== '__main__':
     app.add_url_rule('/',view_func=lista)
